@@ -3,7 +3,7 @@ var app = express();
 
 var http = require('http');
 
-var httpPort = process.env.PORT || 8080;
+var httpPort =  8080;
 
 var httpServer = http.createServer(app);
 
